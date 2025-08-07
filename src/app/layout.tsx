@@ -2,11 +2,15 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: '正 Character Practice - Learn Chinese Writing',
-  description: 'Interactive app to practice writing the Chinese character 正 (correct/positive) with proper stroke order',
-  keywords: 'Chinese, character, writing, practice, 正, stroke order, calligraphy',
-  authors: [{ name: 'Zheng Character App' }],
-  viewport: 'width=device-width, initial-scale=1',
+  title: '正 Counter - Traditional Chinese Tally App',
+  description: 'Interactive counting app using traditional Chinese tally marks with 正 character - each stroke counts as 1, complete character equals 5',
+  keywords: 'Chinese, tally, counting, traditional, 正, cultural, interactive',
+  authors: [{ name: 'Zheng Counter App' }],
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
